@@ -1,0 +1,84 @@
+Pa_1_380	RCD-1	Regulator of cell death-1 (rcd-1)-like protein
+Pa_1_140	CRY-2	Deoxyribodipyrimidine photolyase
+Pa_1_1870	WC-2	White collar-2 protein light receptor
+Pa_1_3170	OP-2	Rhodopsin-like protein
+Pa_1_4840	PaPNC1	Oxidase-like protein
+Pa_1_6730	MCM7	Mini-chromosome maintenance protein 7
+Pa_1_6940	PaKMT6	H3K27me3 methyltransferase
+Pa_1_11380	PaPLP1	Patatin-like phospholipase-1
+Pa_1_11410	PaSEC9	T-SNARE protein SEC-9
+Pa_1_15260	CRY-1	Mitochondrial cryptochrome
+Pa_1_15580	PaHST2	Sirtuin 2 protein
+Pa_1_19720	TEF-1	Translation elongation factor 1-alpha
+Pa_1_20580	APN2	DNA-(apurinic or apyrimidinic site) lyase 2
+Pa_1_20590	FPR1	Fertilization Plus Regulator mating type protein MAT1-2-1 
+Pa_1_20600	SLA2	Synthetically Lethal with ABP1 protein 2
+Pa_1_22200	PaPNK1	Mitochondrial NADH kinase
+Pa_1_23950	MOD-D	Guanine nucleotide-binding protein alpha-3 subunit
+Pa_2_510	PaPKS1	Polyketide synthase
+Pa_2_530	ABR1	ABR1-like multicopper oxidase
+Pa_2_3760	MOD-E	HSP90-domain-containing protein
+Pa_2_6680	HET-R	Heterokaryon incompatibility NOD-like receptor R
+Pa_2_7940	HET-D	Heterokaryon incompatibility NOD-like receptor D
+Pa_2_11200	ACT1	Actin-like protein
+Pa_3_620	HET-S	Heterokaryon incompatibility protein S
+Pa_3_640	NWD2	NACHT and WD40-domain containing NOD-like receptor 2
+Pa_3_1370	HET-C	Glycolipid transfer protein HET-C
+Pa_3_1710	PaAOX	Alternative oxidase mitochondrial precursor
+Pa_3_4970	TSR1	Ribosome biogenesis protein TSR1
+Pa_3_9900	HELLF	Prion amyloid fibrils-forming protein
+Pa_3_9910	FNT1	NB-ARC domain and tetratricopeptide repeat-containing NOD-like receptor
+Pa_3_10930	NWD1	NACHT and WD40-domain containing NOD-like receptor 1
+Pa_4_1190	HNWD1	HET, NACHT and WD40-domain containing NOD-like receptor 1
+Pa_4_1700	RPB2	DNA-dependent RNA polymerase II
+Pa_4_1920	HET-E	Heterokaryon incompatibility NOD-like receptor E
+Pa_4_2550	PaNUO19.3	PSST subunit of the respiratory complex I
+Pa_4_3640	AO1	Ascorbate oxidase (AO)-like protein
+Pa_4_7630	TUB2	Beta-tubulin 2
+Pa_4_6960	VVD	Vivid protein light receptor
+Pa_4_6700	PaME4	Coiled-coil putative protein
+Pa_4_4470	MOD-A	Mod-A protein
+Pa_5_1230	NWD5	NACHT and WD40-domain containing NOD-like receptor 5
+Pa_5_10	SPOK2	Spore killing protein 2
+Pa_5_12720	HET-Va	Lysine or histidine methyltransferase
+Pa_5_12710	HET-Vb	MLKL and TUDOR domains-containing protein
+Pa_5_3370	NWD3	NACHT and WD40-domain containing NOD-like receptor 3
+Pa_5_4020	IDI-2	IDI-2 precursor
+Pa_5_6130	WC-1	White collar-1 protein light receptor
+Pa_5_12100	NWD4	NACHT and WD40-domain containing NOD-like receptor 4
+Pa_5_8070	HELLP	Prion-forming protein HELLP
+Pa_6_4220	FET3	Canonical ferroxidase FET3-like protein
+Pa_6_4390	HCH	Glycine-rich signal peptide
+Pa_6_6180	PaKU70	ATP-dependent DNA helicase II subunit 1
+Pa_6_990	PaKMT1	H3K9me3 methyltransferase
+Pa_7_3110	HNWD3	HET, NACHT and WD40-domain containing NOD-like receptor 3
+Pa_7_10775	HET-Q1	Gasdermin-like protein HET-Q1
+Pa_1_20591	SMR2	Sporulation minus regulator 2
+Pa_1_20592	SMR1	Sporulation minus regulator 1
+Pa_1_20593	FMR1	Fertilization Minus Regulator mating type protein MAT1-1-1 
+QC762_0096360	HNWD-pc1	HNWD NOD-like receptor pc1
+QC762_0008530	HNWD-pc2	HNWD NOD-like receptor pc2
+QC762_0075610	HNWD-pc3	HNWD NOD-like receptor pc3
+QC762_0077370	HNWD-pc4	HNWD NOD-like receptor pc4
+QC762_0079050	HNWD-pc5	HNWD NOD-like receptor pc5
+QC762_0084680	HNWD-pc6	HNWD NOD-like receptor pc6
+QC762_0062880	HNWD-pc7	HNWD NOD-like receptor pc7
+QC762_0098560	HNWD-pc8	HNWD NOD-like receptor pc8
+QC762_0100330	HNWD-pc9	HNWD NOD-like receptor pc9
+QC762_0100760	HNWD-pc10	HNWD NOD-like receptor pc10
+QC762_0036190	HNWD-pc11	HNWD NOD-like receptor pc11
+QC762_0036320	HNWD-pc12	HNWD NOD-like receptor pc12
+QC762_0039640	HNWD-pc13	HNWD NOD-like receptor pc13
+QC762_0039710	HNWD-pc14	HNWD NOD-like receptor pc14
+QC762_0040010	HNWD-pc15	HNWD NOD-like receptor pc15
+QC762_0040020	HNWD-pc16	HNWD NOD-like receptor pc16
+QC762_0040210	HNWD-pc17	HNWD NOD-like receptor pc17
+QC762_0105070	HNWD-pc18	HNWD NOD-like receptor pc18
+QC762_0002600	HNWD-pc19	HNWD NOD-like receptor pc19
+QC761_0075660	HNWD-bm1	HNWD NOD-like receptor bm1
+QC761_0038960	HNWD-bm2	HNWD NOD-like receptor bm2
+EYR66_0001420	HNWD-p1	HNWD NOD-like receptor p1
+QC763_0001550	HNWD-pa1	HNWD NOD-like receptor pa1
+QC764_0001460	HNWD-pa1	HNWD NOD-like receptor pa1
+QC762_0063710	HNWDps	HNWD NOD-like receptor
+QC762_0024200	HNWDps	HNWD NOD-like receptor

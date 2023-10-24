@@ -1,0 +1,36 @@
+##gff-version 3
+# het-r after annotation nice-3.0
+CBS237.71m_chromosome_2	manual	gene	2683506	2687111	.	+	.	ID=EYR66_206680;Name=Pp_2_6680
+CBS237.71m_chromosome_2	manual	mRNA	2683506	2687111	.	+	.	ID=EYR66_206680-T1;Name=EYR66_206680-T1;Parent=EYR66_206680
+CBS237.71m_chromosome_2	manual	CDS	2683506	2685725	.	+	0	ID=EYR66_206680-T1-CDS1;Parent=EYR66_206680-T1
+CBS237.71m_chromosome_2	manual	exon	2683506	2685725	.	+	.	ID=EYR66_206680-T1-exon1;Parent=EYR66_206680-T1
+CBS237.71m_chromosome_2	manual	CDS	2685774	2687111	.	+	0	ID=EYR66_206680-T1-CDS2;Parent=EYR66_206680-T1
+CBS237.71m_chromosome_2	manual	exon	2685774	2687111	.	+	.	ID=EYR66_206680-T1-exon2;Parent=EYR66_206680-T1
+# hnwd1 after annotation nice-3.0
+CBS237.71m_chromosome_4	manual	gene	468631	472913	.	-	.	ID=EYR66_401190;Name=Pp_4_1190
+CBS237.71m_chromosome_4	manual	mRNA	468631	472913	.	-	.	ID=EYR66_401190-T1;Name=EYR66_401190-T1;Parent=EYR66_401190
+CBS237.71m_chromosome_4	manual	CDS	468631	470613	.	-	0	ID=EYR66_401190-T1-CDS1;Parent=EYR66_401190-T1
+CBS237.71m_chromosome_4	manual	exon	468631	470613	.	-	.	ID=EYR66_401190-T1-exon1;Parent=EYR66_401190-T1
+CBS237.71m_chromosome_4	manual	CDS	470670	472913	.	-	0	ID=EYR66_401190-T1-CDS2;Parent=EYR66_401190-T1
+CBS237.71m_chromosome_4	manual	exon	470670	472913	.	-	.	ID=EYR66_401190-T1-exon2;Parent=EYR66_401190-T1
+# het-e after annotation nice-3.0
+CBS237.71m_chromosome_4	manual	gene	708528	711511	.	-	.	ID=EYR66_401920;Name=Pp_4_1920;pseudogene=unprocessed
+CBS237.71m_chromosome_4	manual	mRNA	708528	711511	2631	-	.	ID=EYR66_401920-T1;Name=EYR66_401920-T1;Parent=EYR66_401920;Note=internal frame-shift
+CBS237.71m_chromosome_4	manual	CDS	708528	709181	.	-	0	ID=EYR66_401920-T1-CDS1;Parent=EYR66_401920-T1
+CBS237.71m_chromosome_4	manual	exon	708528	709181	.	-	.	ID=EYR66_401920-T1-exon1;Parent=EYR66_401920-T1
+CBS237.71m_chromosome_4	manual	CDS	709231	711511	.	-	0	ID=EYR66_401920-T1-CDS2;Parent=EYR66_401920-T1
+CBS237.71m_chromosome_4	manual	exon	709231	711511	.	-	.	ID=EYR66_401920-T1-exon2;Parent=EYR66_401920-T1
+# hnwd3 after annotation nice-3.0
+CBS237.71m_chromosome_7.2	manual	gene	707421	710800	.	-	.	ID=EYR66_703110;Name=Pp_7_3110
+CBS237.71m_chromosome_7.2	manual	mRNA	707421	710800	.	-	.	ID=EYR66_703110-T1;Name=EYR66_703110-T1;Parent=EYR66_703110
+CBS237.71m_chromosome_7.2	manual	CDS	707421	708449	.	-	0	ID=EYR66_703110-T1-CDS2;Parent=EYR66_703110-T1
+CBS237.71m_chromosome_7.2	manual	exon	707421	708449	.	-	.	ID=EYR66_703110-T1-exon2;Parent=EYR66_703110-T1
+CBS237.71m_chromosome_7.2	manual	CDS	708500	710800	.	-	0	ID=EYR66_703110-T1-CDS3;Parent=EYR66_703110-T1
+CBS237.71m_chromosome_7.2	manual	exon	708500	710800	.	-	.	ID=EYR66_703110-T1-exon3;Parent=EYR66_703110-T1
+# hnwd-p1 after annotation nice-3.0
+CBS237.71m_chromosome_1	manual	gene	356841	360652	.	-	.	ID=EYR66_0001420;Name=hnwd-p1;pseudogene=unprocessed
+CBS237.71m_chromosome_1	manual	mRNA	356841	360652	.	-	.	ID=EYR66_0001420-T1;Name=EYR66_0001420-T1;Parent=EYR66_0001420;Note=Internal stop codon
+CBS237.71m_chromosome_1	manual	CDS	356841	358343	.	-	0	ID=EYR66_0001420-T1-CDS1;Parent=EYR66_0001420-T1
+CBS237.71m_chromosome_1	manual	exon	356841	358343	.	-	.	ID=EYR66_0001420-T1-exon1;Parent=EYR66_0001420-T1
+CBS237.71m_chromosome_1	manual	CDS	358400	360652	.	-	0	ID=EYR66_0001420-T1-CDS6;Parent=EYR66_0001420-T1
+CBS237.71m_chromosome_1	manual	exon	358400	360652	.	-	.	ID=EYR66_0001420-T1-exon6;Parent=EYR66_0001420-T1

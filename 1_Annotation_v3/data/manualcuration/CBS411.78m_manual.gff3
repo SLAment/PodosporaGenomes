@@ -1,0 +1,29 @@
+##gff-version 3
+# het-r after annotation nice-3.0
+CBS411.78m_chromosome_2	maker	gene	2472884	2476111	.	+	.	ID=QC763_206680;Name=Ppp_2_6680
+CBS411.78m_chromosome_2	maker	mRNA	2472884	2476111	38.23152	+	.	ID=QC763_206680-T1;Name=QC763_206680-T1;Parent=QC763_206680
+CBS411.78m_chromosome_2	maker	CDS	2472884	2475103	.	+	0	ID=QC763_206680-T1-CDS1;Parent=QC763_206680-T1
+CBS411.78m_chromosome_2	maker	exon	2472884	2475103	.	+	.	ID=QC763_206680-T1-exon1;Parent=QC763_206680-T1
+CBS411.78m_chromosome_2	maker	CDS	2475152	2476111	.	+	0	ID=QC763_206680-T1-CDS2;Parent=QC763_206680-T1
+CBS411.78m_chromosome_2	maker	exon	2475152	2476111	.	+	.	ID=QC763_206680-T1-exon2;Parent=QC763_206680-T1
+# hnwd1 after annotation nice-3.0
+CBS411.78m_chromosome_4	manual	gene	409271	412452	.	-	.	ID=QC763_401190;Name=Ppp_4_1190
+CBS411.78m_chromosome_4	manual	mRNA	409271	412452	.	-	.	ID=QC763_401190-T1;Name=QC763_401190-T1;Parent=QC763_401190
+CBS411.78m_chromosome_4	manual	CDS	409271	410152	.	-	0	ID=QC763_401190-T1-CDS2;Parent=QC763_401190-T1
+CBS411.78m_chromosome_4	manual	exon	409271	410152	.	-	.	ID=QC763_401190-T1-exon2;Parent=QC763_401190-T1
+CBS411.78m_chromosome_4	manual	CDS	410209	412452	.	-	0	ID=QC763_401190-T1-CDS3;Parent=QC763_401190-T1
+CBS411.78m_chromosome_4	manual	exon	410209	412452	.	-	.	ID=QC763_401190-T1-exon3;Parent=QC763_401190-T1
+# het-e after annotation nice-3.0
+CBS411.78m_chromosome_4	manual	gene	854968	859339	.	-	.	ID=QC763_401920;Name=Ppp_4_1920
+CBS411.78m_chromosome_4	manual	mRNA	854968	859339	.	-	.	ID=QC763_401920-T1;Name=QC763_401920-T1;Parent=QC763_401920
+CBS411.78m_chromosome_4	manual	CDS	854968	857007	.	-	0	ID=QC763_401920-T1-CDS1;Parent=QC763_401920-T1
+CBS411.78m_chromosome_4	manual	exon	854968	857007	.	-	.	ID=QC763_401920-T1-exon1;Parent=QC763_401920-T1
+CBS411.78m_chromosome_4	manual	CDS	857057	859339	.	-	0	ID=QC763_401920-T1-CDS3;Parent=QC763_401920-T1
+CBS411.78m_chromosome_4	manual	exon	857057	859339	.	-	.	ID=QC763_401920-T1-exon3;Parent=QC763_401920-T1
+# hnwd-pa1 after annotation nice-3.0
+CBS411.78m_chromosome_1	manual	gene	467804	472115	.	-	.	ID=QC763_0001550;Name=hnwd-pa1
+CBS411.78m_chromosome_1	manual	mRNA	467804	472115	.	-	.	ID=QC763_0001550-T1;Name=QC763_0001550-T1;Parent=QC763_0001550
+CBS411.78m_chromosome_1	manual	CDS	467804	469807	.	-	0	ID=QC763_0001550-T1-CDS1;Parent=QC763_0001550-T1
+CBS411.78m_chromosome_1	manual	exon	467804	469807	.	-	.	ID=QC763_0001550-T1-exon1;Parent=QC763_0001550-T1
+CBS411.78m_chromosome_1	manual	CDS	469863	472115	.	-	0	ID=QC763_0001550-T1-CDS2;Parent=QC763_0001550-T1
+CBS411.78m_chromosome_1	manual	exon	469863	472115	.	-	.	ID=QC763_0001550-T1-exon2;Parent=QC763_0001550-T1

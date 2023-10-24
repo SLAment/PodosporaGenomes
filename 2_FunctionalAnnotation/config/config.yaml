@@ -1,0 +1,28 @@
+## Configuration file for the PaFunannotate pipeline: second version 
+# ---------------------------------------------------
+# Paths and files
+path2assemblies: "/Users/lorena/Dropbox/PhD_UU/Analyses/SnakePipelines/5d_Annotation_v3/data/genomes"
+path2samples: "/Users/lorena/Dropbox/PhD_UU/Analyses/SnakePipelines/5d_Annotation_v3/results"
+path2orthos: "/Users/lorena/Dropbox/PhD_UU/Analyses/SnakePipelines/5d_Annotation_v3/renaming"
+# path2assemblies: "../1_Annotation_v3/data/genomes"
+# path2samples: "../1_Annotation_v3/results"
+# path2orthos: "../1_Annotation_v3/renaming"
+knownproducts: "data/annotation/KnownProducts_20230608.txt"
+pseudogenes: "data/annotation/pseudogenes.txt"
+
+# Scripts I made for this pipeline
+decoratePodoGff3: "scripts/decoratePodoGff3.py"
+mergeGFFs: "scripts/mergeGFFs.py"
+appendQualifierGff: "scripts/appendQualifierGff.py"
+fixProductGff: "scripts/fixProductGff.py"
+tbl4ncbi: "scripts/tbl4ncbi.py"
+addtRNA2tbl: "scripts/addtRNA2tbl.py"
+
+annotationversion: "3.00"
+
+# Samples
+longassemblies: ["CBS112042p", "CBS237.71m", "CBS411.78m", "CBS415.72m", "PaTgp", "PaWa137m", "PaYp", "PcWa139m", "CBS124.78p",
+      "PaWa100p", "PaWa21m", "PaWa28m", "PaWa46p", "PaWa53m", "PaWa58m", "PaWa63p", "PaWa87p", "PaYm",
+      "Podan2", "PODCO"]
+
+shortassemlies: ["CBS253.71p", "CBS307.81m", "CBS333.63p", "CBS451.62p", "PcWa131m", "PcWa132p", "PcWa133m", "PaZp", "CBS433.50p", "CBS455.64m"]

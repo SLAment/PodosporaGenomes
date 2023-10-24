@@ -1,0 +1,4 @@
+channels:
+  - bioconda
+dependencies:
+  - antismash=6.1.1

@@ -1,0 +1,9 @@
+QC762_0024110	pseudo=true	frame-shift due to misassembly
+QC762_0039640	pseudo=true	frame-shift due to misassembly
+QC762_0062880	pseudogene=unprocessed	internal stop codon
+QC762_0063710	pseudogene=unprocessed	internal stop codon and rana LTR interruption
+QC762_0100330	pseudo=true	frame-shift due to misassembly
+QC762_0100760	pseudo=true	frame-shift due to misassembly
+QC762_0024200	pseudogene=unprocessed	NACHT domain fragmented and WD40 domain missing
+EYR66_0001420	pseudogene=unprocessed	internal stop codon
+EYR66_401920	pseudogene=unprocessed	internal frame-shift

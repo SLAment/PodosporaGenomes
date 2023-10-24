@@ -1,0 +1,178 @@
+##gff-version 3
+# het-r after annotation nice-3.0
+CBS415.72m_chromosome_2.2	manual	gene	703043	706196	.	+	.	ID=QC762_206680;Name=Ppc_2_6680
+CBS415.72m_chromosome_2.2	manual	mRNA	703043	706196	33.52296	+	.	ID=QC762_206680-T1;Name=QC762_206680-T1;Parent=QC762_206680
+CBS415.72m_chromosome_2.2	manual	CDS	703347	705566	.	+	0	ID=QC762_206680-T1-CDS1;Parent=QC762_206680-T1
+CBS415.72m_chromosome_2.2	manual	exon	703043	705566	.	+	.	ID=QC762_206680-T1-exon1;Parent=QC762_206680-T1
+CBS415.72m_chromosome_2.2	manual	CDS	705615	706196	.	+	0	ID=QC762_206680-T1-CDS2;Parent=QC762_206680-T1
+CBS415.72m_chromosome_2.2	manual	exon	705615	706196	.	+	.	ID=QC762_206680-T1-exon2;Parent=QC762_206680-T1
+# Paralog of Pa_6_7950+Pa_6_7955 after annotation nice-3.0
+CBS415.72m_chromosome_1	manual	gene	7323315	7327064	.	-	.	ID=QC762_0024110;Name=QC762_0024110;pseudogene=unprocessed
+CBS415.72m_chromosome_1	manual	mRNA	7323315	7327064	.	-	.	ID=QC762_0024110-T1;Parent=QC762_0024110;product=P-loop containing nucleoside triphosphate hydrolase protein;Note=Frame-shift due to misassembly
+CBS415.72m_chromosome_1	manual	CDS	7323315	7325902	.	-	2	ID=QC762_0024110-T1.cds6;Parent=QC762_0024110-T1
+CBS415.72m_chromosome_1	manual	exon	7323315	7325902	.	-	.	ID=QC762_0024110-T1.exon6;Parent=QC762_0024110-T1
+CBS415.72m_chromosome_1	manual	CDS	7325962	7326136	.	-	0	ID=QC762_0024110-T1.cds5;Parent=QC762_0024110-T1
+CBS415.72m_chromosome_1	manual	exon	7325962	7326136	.	-	.	ID=QC762_0024110-T1.exon5;Parent=QC762_0024110-T1
+CBS415.72m_chromosome_1	manual	CDS	7326182	7326537	.	-	0	ID=QC762_0024110-T1.cds4;Parent=QC762_0024110-T1
+CBS415.72m_chromosome_1	manual	exon	7326182	7326537	.	-	.	ID=QC762_0024110-T1.exon4;Parent=QC762_0024110-T1
+CBS415.72m_chromosome_1	manual	CDS	7326584	7326878	.	-	1	ID=QC762_0024110-T1.cds3;Parent=QC762_0024110-T1
+CBS415.72m_chromosome_1	manual	exon	7326584	7326878	.	-	.	ID=QC762_0024110-T1.exon3;Parent=QC762_0024110-T1
+CBS415.72m_chromosome_1	manual	CDS	7326926	7326987	.	-	0	ID=QC762_0024110-T1.cds2;Parent=QC762_0024110-T1
+CBS415.72m_chromosome_1	manual	exon	7326926	7326987	.	-	.	ID=QC762_0024110-T1.exon2;Parent=QC762_0024110-T1
+CBS415.72m_chromosome_1	manual	CDS	7327050	7327064	.	-	0	ID=QC762_0024110-T1.cds1;Parent=QC762_0024110-T1
+CBS415.72m_chromosome_1	manual	exon	7327050	7327064	.	-	.	ID=QC762_0024110-T1.exon1;Parent=QC762_0024110-T1
+# Paralog of Pa_6_7950 after annotation nice-3.0
+CBS415.72m_chromosome_6	manual	gene	2337184	2340681	.	-	.	ID=QC762_0096350;Name=QC762_0096350
+CBS415.72m_chromosome_6	manual	mRNA	2337184	2340681	.	-	.	ID=QC762_0096350-T1;Name=QC762_0096350-T1;product=P-loop containing nucleoside triphosphate hydrolase protein;Parent=QC762_0096350
+CBS415.72m_chromosome_6	manual	CDS	2337184	2339519	.	-	2	ID=QC762_0096350-T1-CDS1;Parent=QC762_0096350-T1
+CBS415.72m_chromosome_6	manual	exon	2337184	2339519	.	-	.	ID=QC762_0096350-T1-exon1;Parent=QC762_0096350-T1
+CBS415.72m_chromosome_6	manual	CDS	2339579	2339753	.	-	0	ID=QC762_0096350-T1-CDS2;Parent=QC762_0096350-T1
+CBS415.72m_chromosome_6	manual	exon	2339579	2339753	.	-	.	ID=QC762_0096350-T1-exon2;Parent=QC762_0096350-T1
+CBS415.72m_chromosome_6	manual	CDS	2339799	2340155	.	-	0	ID=QC762_0096350-T1-CDS3;Parent=QC762_0096350-T1
+CBS415.72m_chromosome_6	manual	exon	2339799	2340155	.	-	.	ID=QC762_0096350-T1-exon3;Parent=QC762_0096350-T1
+CBS415.72m_chromosome_6	manual	CDS	2340202	2340496	.	-	1	ID=QC762_0096350-T1-CDS4;Parent=QC762_0096350-T1
+CBS415.72m_chromosome_6	manual	exon	2340202	2340496	.	-	.	ID=QC762_0096350-T1-exon4;Parent=QC762_0096350-T1
+CBS415.72m_chromosome_6	manual	CDS	2340544	2340605	.	-	0	ID=QC762_0096350-T1-CDS5;Parent=QC762_0096350-T1
+CBS415.72m_chromosome_6	manual	exon	2340544	2340605	.	-	.	ID=QC762_0096350-T1-exon5;Parent=QC762_0096350-T1
+CBS415.72m_chromosome_6	manual	CDS	2340667	2340681	.	-	0	ID=QC762_0096350-T1-CDS6;Parent=QC762_0096350-T1
+CBS415.72m_chromosome_6	manual	exon	2340667	2340681	.	-	.	ID=QC762_0096350-T1-exon6;Parent=QC762_0096350-T1;
+# hnwd-pc1 after annotation nice-3.0
+CBS415.72m_chromosome_6	manual	gene	2342013	2346384	.	+	.	ID=QC762_0096360;Name=hnwd-pc1
+CBS415.72m_chromosome_6	manual	mRNA	2342013	2346384	.	+	.	ID=QC762_0096360-T1;Name=hnwd-pc1;Parent=QC762_0096360
+CBS415.72m_chromosome_6	manual	exon	2342013	2344295	.	+	.	ID=QC762_0096360-T1-exon1;Parent=QC762_0096360-T1
+CBS415.72m_chromosome_6	manual	CDS	2342013	2344295	.	+	0	ID=QC762_0096360-T1-CDS1;Parent=QC762_0096360-T1
+CBS415.72m_chromosome_6	manual	exon	2344345	2346384	.	+	.	ID=QC762_0096360-T1-exon2;Parent=QC762_0096360-T1
+CBS415.72m_chromosome_6	manual	CDS	2344345	2346384	.	+	0	ID=QC762_0096360-T1-CDS2;Parent=QC762_0096360-T1
+# hnwd-pc10 after annotation nice-3.0
+CBS415.72m_chromosome_6	manual	gene	3607965	3611015	.	-	.	ID=QC762_0100760;Name=hnwd-pc10;pseudogene=unprocessed
+CBS415.72m_chromosome_6	manual	mRNA	3607965	3611015	.	-	.	ID=QC762_0100760-T1;Parent=QC762_0100760;Note=Frame-shift due to misassembly
+CBS415.72m_chromosome_6	manual	CDS	3608765	3611015	.	-	0	ID=QC762_0100760-T1.cds.1;Parent=QC762_0100760-T1
+CBS415.72m_chromosome_6	manual	exon	3608765	3611015	.	-	.	ID=QC762_0100760-T1.exon1;Parent=QC762_0100760-T1
+CBS415.72m_chromosome_6	manual	CDS	3607965	3608708	.	-	0	ID=QC762_0100760-T1.cds.2;Parent=QC762_0100760-T1
+CBS415.72m_chromosome_6	manual	exon	3607965	3608708	.	-	.	ID=QC762_0100760-T1.exon2;Parent=QC762_0100760-T1
+# hnwd-pc11 after annotation nice-3.0
+CBS415.72m_chromosome_2.2	manual	gene	64364	67776	.	-	.	ID=QC762_0036190;Name=hnwd-pc11
+CBS415.72m_chromosome_2.2	manual	mRNA	64364	67776	66.1203	-	.	ID=QC762_0036190-T1;Name=QC762_0036190-T1;Parent=QC762_0036190
+CBS415.72m_chromosome_2.2	manual	CDS	64364	65476	.	-	0	ID=QC762_0036190-T1-CDS1;Parent=QC762_0036190-T1
+CBS415.72m_chromosome_2.2	manual	exon	64364	65476	.	-	.	ID=QC762_0036190-T1-exon1;Parent=QC762_0036190-T1
+CBS415.72m_chromosome_2.2	manual	CDS	65533	67776	.	-	0	ID=QC762_0036190-T1-CDS2;Parent=QC762_0036190-T1
+CBS415.72m_chromosome_2.2	manual	exon	65533	67776	.	-	.	ID=QC762_0036190-T1-exon2;Parent=QC762_0036190-T1
+# hnwd-pc12 after annotation nice-3.0
+CBS415.72m_chromosome_2.2	manual	gene	99526	102704	.	+	.	ID=QC762_0036320;Name=hnwd-pc12
+CBS415.72m_chromosome_2.2	manual	mRNA	99526	102704	.	+	.	ID=QC762_0036320-T1;Name=QC762_0036320-T1;Parent=QC762_0036320
+CBS415.72m_chromosome_2.2	manual	exon	99526	101778	.	+	.	ID=QC762_0036320-T1-exon1;Parent=QC762_0036320-T1
+CBS415.72m_chromosome_2.2	manual	CDS	99526	101778	.	+	0	ID=QC762_0036320-T1-CDS1;Parent=QC762_0036320-T1
+CBS415.72m_chromosome_2.2	manual	CDS	101835	102704	.	+	0	ID=QC762_0036320-T1-CDS2;Parent=QC762_0036320-T1
+CBS415.72m_chromosome_2.2	manual	exon	101835	102704	.	+	.	ID=QC762_0036320-T1-exon2;Parent=QC762_0036320-T1
+# hnwd-pc13 after annotation nice-3.0
+CBS415.72m_chromosome_2.2	manual	gene	991554	995739	.	-	.	ID=QC762_0039640;Name=hnwd-pc13;pseudogene=unprocessed
+CBS415.72m_chromosome_2.2	manual	mRNA	991554	995739	.	-	.	ID=QC762_0039640-T1;Name=QC762_0039640-T1;Parent=QC762_0039640
+CBS415.72m_chromosome_2.2	manual	CDS	993487	995739	.	-	0	ID=QC762_0039640-T1.cds2;Parent=QC762_0039640-T1
+CBS415.72m_chromosome_2.2	manual	exon	993487	995739	.	-	.	ID=QC762_0039640-T1.exon2;Parent=QC762_0039640-T1
+CBS415.72m_chromosome_2.2	manual	CDS	991554	993430	.	-	0	ID=QC762_0039640-T1.cds1;Parent=QC762_0039640-T1
+CBS415.72m_chromosome_2.2	manual	exon	991554	993430	.	-	.	ID=QC762_0039640-T1.exon1;Parent=QC762_0039640-T1
+# hnwd-pc14 after annotation nice-3.0
+CBS415.72m_chromosome_2.2	manual	gene	1024448	1028819	.	-	.	ID=QC762_0039710;Name=hnwd-pc14
+CBS415.72m_chromosome_2.2	manual	mRNA	1024448	1028819	.	-	.	ID=QC762_0039710-T1;Name=QC762_0039710-T1;Parent=QC762_0039710
+CBS415.72m_chromosome_2.2	manual	CDS	1026537	1028819	.	-	0	ID=QC762_0039710-T1-CDS1;Parent=QC762_0039710-T1
+CBS415.72m_chromosome_2.2	manual	exon	1026537	1028819	.	-	.	ID=QC762_0039710-T1-exon1;Parent=QC762_0039710-T1
+CBS415.72m_chromosome_2.2	manual	CDS	1024448	1026487	.	-	0	ID=QC762_0039710-T1-CDS2;Parent=QC762_0039710-T1
+CBS415.72m_chromosome_2.2	manual	exon	1024448	1026487	.	-	.	ID=QC762_0039710-T1-exon2;Parent=QC762_0039710-T1
+# hnwd-pc15 after annotation nice-3.0
+CBS415.72m_chromosome_2.2	manual	gene	1109496	1113167	.	-	.	ID=QC762_0040010;Name=hnwd-pc15
+CBS415.72m_chromosome_2.2	manual	mRNA	1109496	1113167	.	-	.	ID=QC762_0040010-T1;Name=QC762_0040010-T1;Parent=QC762_0040010
+CBS415.72m_chromosome_2.2	manual	CDS	1109496	1110860	.	-	0	ID=QC762_0040010-T1-CDS1;Parent=QC762_0040010-T1
+CBS415.72m_chromosome_2.2	manual	exon	1109496	1110860	.	-	.	ID=QC762_0040010-T1-exon1;Parent=QC762_0040010-T1
+CBS415.72m_chromosome_2.2	manual	CDS	1110918	1113167	.	-	0	ID=QC762_0040010-T1-CDS2;Parent=QC762_0040010-T1
+CBS415.72m_chromosome_2.2	manual	exon	1110918	1113167	.	-	.	ID=QC762_0040010-T1-exon2;Parent=QC762_0040010-T1
+# hnwd-pc16 after annotation nice-3.0
+CBS415.72m_chromosome_2.2	manual	gene	1114953	1118893	.	+	.	ID=QC762_0040020;Name=hnwd-pc16
+CBS415.72m_chromosome_2.2	manual	mRNA	1114953	1118893	.	+	.	ID=QC762_0040020-T1;Name=QC762_0040020-T1;Parent=QC762_0040020
+CBS415.72m_chromosome_2.2	manual	CDS	1114953	1117211	.	+	0	ID=QC762_0040020-T1-CDS1;Parent=QC762_0040020-T1
+CBS415.72m_chromosome_2.2	manual	exon	1114953	1117211	.	+	.	ID=QC762_0040020-T1-exon1;Parent=QC762_0040020-T1
+CBS415.72m_chromosome_2.2	manual	CDS	1117268	1118893	.	+	0	ID=QC762_0040020-T1-CDS2;Parent=QC762_0040020-T1
+CBS415.72m_chromosome_2.2	manual	exon	1117268	1118893	.	+	.	ID=QC762_0040020-T1-exon2;Parent=QC762_0040020-T1
+# hnwd-pc17 after annotation nice-3.0
+CBS415.72m_chromosome_2.2	manual	gene	1175123	1178409	.	+	.	ID=QC762_0040210;Name=hnwd-pc17
+CBS415.72m_chromosome_2.2	manual	mRNA	1175123	1178409	.	+	.	ID=QC762_0040210-T1;Name=QC762_0040210-T1;Parent=QC762_0040210
+CBS415.72m_chromosome_2.2	manual	CDS	1175123	1177366	.	+	0	ID=QC762_0040210-T1-CDS1;Parent=QC762_0040210-T1
+CBS415.72m_chromosome_2.2	manual	exon	1175123	1177366	.	+	.	ID=QC762_0040210-T1-exon1;Parent=QC762_0040210-T1
+CBS415.72m_chromosome_2.2	manual	CDS	1177423	1178409	.	+	0	ID=QC762_0040210-T1-CDS2;Parent=QC762_0040210-T1
+CBS415.72m_chromosome_2.2	manual	exon	1177423	1178409	.	+	.	ID=QC762_0040210-T1-exon2;Parent=QC762_0040210-T1
+# hnwd-pc18 after annotation nice-3.0
+CBS415.72m_chromosome_7	manual	gene	521202	524817	.	-	.	ID=QC762_0105070;Name=hnwd-pc18
+CBS415.72m_chromosome_7	manual	mRNA	521202	524817	.	-	.	ID=QC762_0105070-T1;Name=QC762_0105070-T1;Parent=QC762_0105070
+CBS415.72m_chromosome_7	manual	CDS	521202	522485	.	-	0	ID=QC762_0105070-T1-CDS1;Parent=QC762_0105070-T1
+CBS415.72m_chromosome_7	manual	exon	521202	522485	.	-	.	ID=QC762_0105070-T1-exon1;Parent=QC762_0105070-T1
+CBS415.72m_chromosome_7	manual	CDS	522535	524817	.	-	0	ID=QC762_0105070-T1-CDS2;Parent=QC762_0105070-T1
+CBS415.72m_chromosome_7	manual	exon	522535	524817	.	-	.	ID=QC762_0105070-T1-exon2;Parent=QC762_0105070-T1
+# hnwd-pc19 after annotation nice-3.0
+CBS415.72m_chromosome_1	manual	gene	796527	799915	.	-	.	ID=QC762_0002600;Name=hnwd-pc19
+CBS415.72m_chromosome_1	manual	mRNA	796527	799915	.	-	.	ID=QC762_0002600-T1;Parent=QC762_0002600
+CBS415.72m_chromosome_1	manual	CDS	796527	798278	.	-	0	ID=QC762_0002600-T1.cds1;Parent=QC762_0002600-T1
+CBS415.72m_chromosome_1	manual	exon	796527	798278	.	-	.	ID=QC762_0002600-T1.exon2;Parent=QC762_0002600-T1
+CBS415.72m_chromosome_1	manual	CDS	798335	799915	.	-	0	ID=QC762_0002600-T1.cds2;Parent=QC762_0002600-T1
+CBS415.72m_chromosome_1	manual	exon	798335	799915	.	-	.	ID=QC762_0002600-T1.exon1;Parent=QC762_0002600-T1
+# hnwd-pc2 after annotation nice-3.0
+CBS415.72m_chromosome_1	manual	gene	2495611	2499167	.	+	.	ID=QC762_0008530;Name=hnwd-pc2
+CBS415.72m_chromosome_1	manual	mRNA	2495611	2499167	.	+	.	ID=QC762_0008530-T1;Parent=QC762_0008530
+CBS415.72m_chromosome_1	manual	CDS	2495611	2497863	.	+	0	ID=QC762_0008530-T1.cds1;Parent=QC762_0008530-T1
+CBS415.72m_chromosome_1	manual	exon	2495611	2497863	.	+	0	ID=QC762_0008530-T1.exon1;Parent=QC762_0008530-T1
+CBS415.72m_chromosome_1	manual	CDS	2497920	2499167	.	+	0	ID=QC762_0008530-T1.cds2;Parent=QC762_0008530-T1
+CBS415.72m_chromosome_1	manual	exon	2497920	2499167	.	+	0	ID=QC762_0008530-T1.exon2;Parent=QC762_0008530-T1
+# hnwd-pc3 after annotation nice-3.0
+CBS415.72m_chromosome_5	manual	gene	746267	749946	.	-	.	ID=QC762_0075610;Name=hnwd-pc3
+CBS415.72m_chromosome_5	manual	mRNA	746267	749946	.	-	.	ID=QC762_0075610-T1;Name=QC762_0075610-T1;Parent=QC762_0075610;
+CBS415.72m_chromosome_5	manual	CDS	746267	747640	.	-	0	ID=QC762_0075610-T1-CDS1;Parent=QC762_0075610-T1
+CBS415.72m_chromosome_5	manual	exon	746267	747640	.	-	.	ID=QC762_0075610-T1-exon1;Parent=QC762_0075610-T1
+CBS415.72m_chromosome_5	manual	CDS	747697	749946	.	-	0	ID=QC762_0075610-T1-CDS2;Parent=QC762_0075610-T1
+CBS415.72m_chromosome_5	manual	exon	747697	749946	.	-	.	ID=QC762_0075610-T1-exon2;Parent=QC762_0075610-T1
+# hnwd-pc4 after annotation nice-3.0
+CBS415.72m_chromosome_5	manual	gene	1232169	1236031	.	-	.	ID=QC762_0077370;Name=hnwd-pc4
+CBS415.72m_chromosome_5	manual	mRNA	1232169	1236031	.	-	.	ID=QC762_0077370-T1;Name=QC762_0077370-T1;Parent=QC762_0077370
+CBS415.72m_chromosome_5	manual	CDS	1232169	1233731	.	-	0	ID=QC762_0077370-T1-CDS1;Parent=QC762_0077370-T1
+CBS415.72m_chromosome_5	manual	exon	1232169	1233731	.	-	.	ID=QC762_0077370-T1-exon1;Parent=QC762_0077370-T1
+CBS415.72m_chromosome_5	manual	CDS	1233788	1236031	.	-	0	ID=QC762_0077370-T1-CDS3;Parent=QC762_0077370-T1
+CBS415.72m_chromosome_5	manual	exon	1233788	1236031	.	-	.	ID=QC762_0077370-T1-exon3;Parent=QC762_0077370-T1
+# hnwd-pc5 after annotation nice-3.0
+CBS415.72m_chromosome_5	manual	gene	1709226	1713267	.	+	.	ID=QC762_0079050;Name=hnwd-pc5
+CBS415.72m_chromosome_5	manual	mRNA	1709226	1713267	.	+	.	ID=QC762_0079050-T1;Name=QC762_0079050-T1;Parent=QC762_0079050
+CBS415.72m_chromosome_5	manual	exon	1709226	1711469	.	+	.	ID=QC762_0079050-T1-exon1;Parent=QC762_0079050-T1
+CBS415.72m_chromosome_5	manual	CDS	1709226	1711469	.	+	0	ID=QC762_0079050-T1-CDS1;Parent=QC762_0079050-T1
+CBS415.72m_chromosome_5	manual	exon	1711525	1713267	.	+	.	ID=QC762_0079050-T1-exon2;Parent=QC762_0079050-T1
+CBS415.72m_chromosome_5	manual	CDS	1711525	1713267	.	+	0	ID=QC762_0079050-T1-CDS2;Parent=QC762_0079050-T1
+# hnwd-pc6 after annotation nice-3.0
+CBS415.72m_chromosome_5	manual	gene	3283768	3287558	.	+	.	ID=QC762_0084680;Name=hnwd-pc6
+CBS415.72m_chromosome_5	manual	mRNA	3283768	3287558	.	+	.	ID=QC762_0084680-T1;Name=QC762_0084680-T1;Parent=QC762_0084680
+CBS415.72m_chromosome_5	manual	CDS	3283768	3286011	.	+	0	ID=QC762_0084680-T1-CDS1;Parent=QC762_0084680-T1
+CBS415.72m_chromosome_5	manual	exon	3283768	3286011	.	+	.	ID=QC762_0084680-T1-exon1;Parent=QC762_0084680-T1
+CBS415.72m_chromosome_5	manual	CDS	3286068	3287558	.	+	0	ID=QC762_0084680-T1-CDS2;Parent=QC762_0084680-T1
+CBS415.72m_chromosome_5	manual	exon	3286068	3287558	.	+	.	ID=QC762_0084680-T1-exon2;Parent=QC762_0084680-T1
+# hnwd-pc7 after annotation nice-3.0
+CBS415.72m_chromosome_4	manual	gene	589908	593572	.	+	.	ID=QC762_0062880;Name=hnwd-pc7;pseudogene=unprocessed
+CBS415.72m_chromosome_4	manual	mRNA	589908	593572	.	+	.	ID=QC762_0062880-T1;Name=QC762_0062880-T1;Parent=QC762_0062880;Note=Internal stop codon
+CBS415.72m_chromosome_4	manual	CDS	589908	592151	.	+	0	ID=QC762_0062880-T1-CDS1;Parent=QC762_0062880-T1
+CBS415.72m_chromosome_4	manual	exon	589908	592151	.	+	.	ID=QC762_0062880-T1-exon1;Parent=QC762_0062880-T1
+CBS415.72m_chromosome_4	manual	CDS	592208	593572	.	+	0	ID=QC762_0062880-T1-CDS2;Parent=QC762_0062880-T1
+CBS415.72m_chromosome_4	manual	exon	592208	593572	.	+	.	ID=QC762_0062880-T1-exon2;Parent=QC762_0062880-T1
+# hnwd-pc8 after annotation nice-3.0
+CBS415.72m_chromosome_6	manual	gene	2997778	3001316	.	+	.	ID=QC762_0098560;Name=hnwd-pc8
+CBS415.72m_chromosome_6	manual	mRNA	2997778	3001316	.	+	.	ID=QC762_0098560-T1;Name=QC762_0098560-T1;Parent=QC762_0098560
+CBS415.72m_chromosome_6	manual	CDS	2997778	3000021	.	+	0	ID=QC762_0098560-T1-CDS1;Parent=QC762_0098560-T1
+CBS415.72m_chromosome_6	manual	exon	2997778	3000021	.	+	.	ID=QC762_0098560-T1-exon1;Parent=QC762_0098560-T1
+CBS415.72m_chromosome_6	manual	CDS	3000078	3001316	.	+	0	ID=QC762_0098560-T1-CDS2;Parent=QC762_0098560-T1
+CBS415.72m_chromosome_6	manual	exon	3000078	3001316	.	+	.	ID=QC762_0098560-T1-exon2;Parent=QC762_0098560-T1
+# hnwd-pc9 after annotation nice-3.0
+CBS415.72m_chromosome_6	manual	gene	3475635	3479694	.	+	.	ID=QC762_0100330;Name=hnwd-pc9;pseudogene=unprocessed
+CBS415.72m_chromosome_6	manual	mRNA	3475635	3479694	.	+	.	ID=QC762_0100330-T1;Name=QC762_0100330-T1;Parent=QC762_0100330;Note=Frame-shift due to misassembly
+CBS415.72m_chromosome_6	manual	CDS	3475635	3477886	.	+	0	ID=QC762_0100330-T1-CDS1;Parent=QC762_0100330-T1
+CBS415.72m_chromosome_6	manual	exon	3475635	3477886	.	+	.	ID=QC762_0100330-T1-exon1;Parent=QC762_0100330-T1
+CBS415.72m_chromosome_6	manual	CDS	3477943	3479694	.	+	0	ID=QC762_0100330-T1-CDS2;Parent=QC762_0100330-T1
+CBS415.72m_chromosome_6	manual	exon	3477943	3479694	.	+	.	ID=QC762_0100330-T1-exon2;Parent=QC762_0100330-T1
+# Pseudogenized paralog related to het-e after annotation nice-3.0
+CBS415.72m_chromosome_4	manual	gene	818611	821256	.	+	.	ID=QC762_0063710;Name=QC762_0063710;pseudogene=unprocessed
+CBS415.72m_chromosome_4	manual	mRNA	818611	821256	43.11222	+	.	ID=QC762_0063710-T1;Name=QC762_0063710-T1;Parent=QC762_0063710;Note=Internal stop codon and rana LTR interruption
+CBS415.72m_chromosome_4	manual	CDS	818611	820892	.	+	2	ID=QC762_0063710-T1-CDS3;Parent=QC762_0063710-T1
+CBS415.72m_chromosome_4	manual	exon	818611	820892	.	+	.	ID=QC762_0063710-T1-exon3;Parent=QC762_0063710-T1
+CBS415.72m_chromosome_4	manual	CDS	820942	821256	.	+	0	ID=QC762_0063710-T1-CDS4;Parent=QC762_0063710-T1
+CBS415.72m_chromosome_4	manual	exon	820942	821256	.	+	.	ID=QC762_0063710-T1-exon4;Parent=QC762_0063710-T1

@@ -1,0 +1,29 @@
+##gff-version 3
+# het-r after annotation nice-3.0
+CBS124.78p_chromosome_2	manual	gene	2690611	2693964	.	+	.	ID=QC764_206680;Name=Ppa_2_6680
+CBS124.78p_chromosome_2	manual	mRNA	2690611	2693964	40.1154	+	.	ID=QC764_206680-T1;Name=QC764_206680-T1;Parent=QC764_206680
+CBS124.78p_chromosome_2	manual	CDS	2690611	2692830	.	+	0	ID=QC764_206680-T1-CDS1;Parent=QC764_206680-T1
+CBS124.78p_chromosome_2	manual	exon	2690611	2692830	.	+	.	ID=QC764_206680-T1-exon1;Parent=QC764_206680-T1
+CBS124.78p_chromosome_2	manual	CDS	2692879	2693964	.	+	0	ID=QC764_206680-T1-CDS2;Parent=QC764_206680-T1
+CBS124.78p_chromosome_2	manual	exon	2692879	2693964	.	+	.	ID=QC764_206680-T1-exon2;Parent=QC764_206680-T1
+# hnwd1 after annotation nice-3.0
+CBS124.78p_chromosome_4	maker	gene	406623	409783	.	-	.	ID=QC764_401190;Name=Ppa_4_1190
+CBS124.78p_chromosome_4	maker	mRNA	406623	409783	60.61839	-	.	ID=QC764_401190-T1;Name=QC764_401190-T1;Parent=QC764_401190
+CBS124.78p_chromosome_4	maker	CDS	406623	407483	.	-	0	ID=QC764_401190-T1-CDS1;Parent=QC764_401190-T1
+CBS124.78p_chromosome_4	maker	exon	406623	407483	.	-	.	ID=QC764_401190-T1-exon1;Parent=QC764_401190-T1
+CBS124.78p_chromosome_4	maker	CDS	407540	409783	.	-	0	ID=QC764_401190-T1-CDS2;Parent=QC764_401190-T1
+CBS124.78p_chromosome_4	maker	exon	407540	409783	.	-	.	ID=QC764_401190-T1-exon2;Parent=QC764_401190-T1
+# het-e after annotation nice-3.0
+CBS124.78p_chromosome_4	manual	gene	647431	651802	.	-	.	ID=QC764_401920;Name=Ppa_4_1920
+CBS124.78p_chromosome_4	manual	mRNA	647431	651802	.	-	.	ID=QC764_401920-T1;Name=QC764_401920-T1;Parent=QC764_401920
+CBS124.78p_chromosome_4	manual	CDS	647431	649470	.	-	0	ID=QC764_401920-T1-CDS2;Parent=QC764_401920-T1
+CBS124.78p_chromosome_4	manual	exon	647431	649470	.	-	.	ID=QC764_401920-T1-exon2;Parent=QC764_401920-T1
+CBS124.78p_chromosome_4	manual	CDS	649520	651802	.	-	0	ID=QC764_401920-T1-CDS3;Parent=QC764_401920-T1
+CBS124.78p_chromosome_4	manual	exon	649520	651802	.	-	.	ID=QC764_401920-T1-exon3;Parent=QC764_401920-T1
+# hnwd-pa1 after annotation nice-3.0
+CBS124.78p_chromosome_1	manual	gene	364752	368560	.	+	.	ID=QC764_0001460;Name=hnwd-pa1
+CBS124.78p_chromosome_1	manual	mRNA	364752	368560	.	+	.	ID=QC764_0001460-T1;Name=QC764_0001460-T1;Parent=QC764_0001460
+CBS124.78p_chromosome_1	manual	CDS	364752	367004	.	+	0	ID=QC764_0001460-T1-CDS1;Parent=QC764_0001460-T1
+CBS124.78p_chromosome_1	manual	exon	364752	367004	.	+	.	ID=QC764_0001460-T1-exon1;Parent=QC764_0001460-T1
+CBS124.78p_chromosome_1	manual	CDS	367061	368560	.	+	0	ID=QC764_0001460-T1-CDS3;Parent=QC764_0001460-T1
+CBS124.78p_chromosome_1	manual	exon	367061	368560	.	+	.	ID=QC764_0001460-T1-exon3;Parent=QC764_0001460-T1

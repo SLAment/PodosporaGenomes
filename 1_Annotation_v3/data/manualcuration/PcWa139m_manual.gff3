@@ -1,0 +1,22 @@
+##gff-version 3
+# het-r after annotation nice-3.0
+PcWa139m_chromosome_2	manual	gene	2665662	2669519	.	+	.	ID=PcWa139m_206680;Name=Pc_2_6680
+PcWa139m_chromosome_2	manual	mRNA	2665662	2669519	.	+	.	ID=PcWa139m_206680-T1;Name=PcWa139m_206680-T1;Parent=PcWa139m_206680
+PcWa139m_chromosome_2	manual	CDS	2665662	2667881	.	+	0	ID=PcWa139m_206680-T1-CDS1;Parent=PcWa139m_206680-T1
+PcWa139m_chromosome_2	manual	exon	2665662	2667881	.	+	.	ID=PcWa139m_206680-T1-exon1;Parent=PcWa139m_206680-T1
+PcWa139m_chromosome_2	manual	CDS	2667930	2669519	.	+	0	ID=PcWa139m_206680-T1-CDS2;Parent=PcWa139m_206680-T1
+PcWa139m_chromosome_2	manual	exon	2667930	2669519	.	+	.	ID=PcWa139m_206680-T1-exon2;Parent=PcWa139m_206680-T1
+# hnwd1 after annotation nice-3.0
+PcWa139m_chromosome_4	manual	gene	451262	455303	.	-	.	ID=PcWa139m_0062050;Name=Pc_4_1190
+PcWa139m_chromosome_4	manual	mRNA	451262	455303	.	-	.	ID=PcWa139m_0062050-T1;Name=PcWa139m_0062050-T1;Parent=PcWa139m_0062050
+PcWa139m_chromosome_4	manual	CDS	451262	453004	.	-	0	ID=PcWa139m_0062050-T1-CDS1;Parent=PcWa139m_0062050-T1
+PcWa139m_chromosome_4	manual	exon	451262	453004	.	-	.	ID=PcWa139m_0062050-T1-exon1;Parent=PcWa139m_0062050-T1
+PcWa139m_chromosome_4	manual	CDS	453060	455303	.	-	0	ID=PcWa139m_0062050-T1-CDS2;Parent=PcWa139m_0062050-T1
+PcWa139m_chromosome_4	manual	exon	453060	455303	.	-	.	ID=PcWa139m_0062050-T1-exon2;Parent=PcWa139m_0062050-T1
+# het-e after annotation nice-3.0
+PcWa139m_chromosome_4	maker	gene	736631	740993	.	-	.	ID=PcWa139m_401920;Name=Pc_4_1920
+PcWa139m_chromosome_4	maker	mRNA	736631	740993	.	-	.	ID=PcWa139m_401920-T1;Name=PcWa139m_401920-T1;Parent=PcWa139m_401920
+PcWa139m_chromosome_4	maker	exon	736631	738661	.	-	.	ID=PcWa139m_401920-T1-exon1;Parent=PcWa139m_401920-T1
+PcWa139m_chromosome_4	maker	CDS	736631	738661	.	-	0	ID=PcWa139m_401920-T1-CDS1;Parent=PcWa139m_401920-T1
+PcWa139m_chromosome_4	maker	CDS	738711	740993	.	-	0	ID=PcWa139m_401920-T1-CDS2;Parent=PcWa139m_401920-T1
+PcWa139m_chromosome_4	maker	exon	738711	740993	.	-	.	ID=PcWa139m_401920-T1-exon2;Parent=PcWa139m_401920-T1

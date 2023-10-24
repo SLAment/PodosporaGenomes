@@ -1,0 +1,23 @@
+### ParaOrthos: Exploring the phylogenies of paralogs in the *Podospora* complex
+# ===========================================================================
+# Sandra Lorena Ament Velasquez
+# 2023/10/23
+# ++++++++++++++++++++++++++++++++++++++++++++++
+
+SampleIDs: ["PODAN", "PODCO", "CBS112042p", "CBS237.71m", "CBS411.78m", "CBS415.72m", "PaTgp", "PaWa137m", "PaYp", "PcWa139m", "CBS124.78p", "PaWa100p", "PaWa21m", "PaWa28m", "PaWa46p", "PaWa53m", "PaWa58m", "PaWa63p", "PaWa87p", "CBS253.71p", "CBS333.63p", "CBS451.62p", "PcWa131m", "PcWa132p", "PcWa133m", "PaZp", "CBS433.50p", "CBS455.64m"]
+
+# Output results from the OrthoTreesUppmax.smk pipeline
+treesfile: "../4_OrthoTrees/results/SingleGeneTrees.tre"
+OrthoTreesPath: "../4_OrthoTrees"
+orthoreport: "../4_OrthoTrees/results/OneToOne_equivalences.txt"
+
+# Number of sample orthologs
+SAMPLEsize: 1000
+
+# Support filter for collapsing branches
+MINsupport: 95
+
+# Local installations
+astral: "bin/Astral/astral.5.7.8.jar"
+quartetscores: "bin/QuartetScores/QuartetScores"
+

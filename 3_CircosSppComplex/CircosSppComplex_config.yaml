@@ -1,0 +1,30 @@
+# Configuration file of CircosSppComplex
+# ==================================================
+# Sandra Lorena Ament Velasquez
+# 2020/07/17 - 2023/09/10
+# +++++++++++++++++++++++++++++++++++++++++++++++++
+
+## Samples
+SampleIDs: ["Podan2", "CBS237.71m", "PcWa139m", "CBS112042p", "CBS415.72m", "CBS411.78m", "CBS124.78p"]
+reference: "Podan2" 
+
+## Path to assemblies
+path2assemblies: "/mnt/sda/johannesson_lab/podospora/data/FinalAssemblies"
+path2repeatmasking: "/mnt/sda/johannesson_lab/podospora/data/FinalAssemblies" # Assume files are called {sample}.repeatmasker.gff
+
+
+## Template for the configuration file for Circos plot. It should containing all Circos files too
+# circos.conf
+# colors.conf
+# colors_fonts_patterns.conf
+# fonts.conf
+# housekeeping.conf
+# ideogram.conf
+# image.conf
+# patterns.conf
+# ticks.conf
+
+circosconfpath: "data/etc" # This path should also be as such in the configuration file for all the dependencies
+
+# Third-party script to produce files ready to be read in https://dnanexus.github.io/dot/
+DotPrep: "scripts/DotPrep.py"

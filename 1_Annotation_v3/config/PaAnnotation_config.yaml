@@ -1,0 +1,72 @@
+## Configuration file for the PaAnnotation pipeline: third version 
+# ---------------------------------------------------
+# Make sure to keep the (samplesnp + samplespb + Podan2) in the same order as
+# periden and sppcode!
+annotationversion: 3.00
+
+## The reference genome
+
+# Podans_v2016
+Podans_v2016_trans: "data/Podans_v2016/genome_annotation_PODANS_SCV_clean_exon.fas" # Lelandais et al. (2022)
+Podans_v2016_aa: "data/Podans_v2016/genome_annotation_PODANS_v2016_CDS.fas" # Lelandais et al. (2022)
+
+# # Podan2 gene models
+# Podan2genesfas: "/proj/sllstore2017101/b2015200/ComparativeGenomics/ReferenceGenome/JGI/Podan2_AssemblyScaffoldsmtGenesEd_gene.fas" # I manually added the 3 genes from the MAT- idiomorph
+
+refpodan: "data/Podans_v2016/genomePodoMatPlus.fasta"
+refgff: "data/Podans_v2016/genome_annotation_PODANS_v2016.gff"
+refgff_scv: "data/Podans_v2016/genome_annotation_PODANS_SCV_clean.gff" # I had to modify it to make it compatible with my script
+
+## Long read assemblies
+nicegenomespath: "/crex/proj/sllstore2017101/b2015200/BestAssemblies/FinalGenomes"
+
+## Illumina de novo assemblies
+illupaths: "/proj/sllstore2017101/b2015200/SnakePipelines/1b_AssemblySPAdes/results"
+
+## SAMPLES
+samplesnp: ["CBS112042p", "CBS237.71m", "CBS411.78m", "CBS415.72m", "PaTgp", "PaWa137m", "PaYp", "PcWa139m", "CBS124.78p"] # Produced with Nanopore
+samplespb: ["PaWa100p", "PaWa21m", "PaWa28m", "PaWa46p", "PaWa53m", "PaWa58m", "PaWa63p", "PaWa87p", "PaYm",] # Produced with PacBio
+samplesillu: ["CBS253.71p", "CBS307.81m", "CBS333.63p", "CBS451.62p", "PcWa131m", "PcWa132p", "PcWa133m", "PaZp", "CBS433.50p", "CBS455.64m"] # Illumina
+manualcurations: ["CBS112042p", "CBS124.78p", "CBS237.71m", "CBS411.78m", "CBS415.72m", "PcWa139m"]
+
+## Other references
+Podan2: "path/to/Podan2_AssemblyScaffolds_unmasked.fa" # nothing is softmasked
+PODCO: "path/to/PODCO_genomic.fas"
+
+## To deal with samples of less quality data
+samplessingleend: ["CBS307.81m"] # CBS307.81p is actually CBS307.81m
+
+## TE libraries
+PodoTElib: "path/to/PodoTE-1.00.lib"
+
+## RNAseq data
+RNAseqpath: "/proj/sllstore2017101/b2015200/SnakePipelines/0_CleanIllumina/postQC-data"
+# In the same order!
+samplesRNA: ["PaWa53BCvsS", "PaWa58BCvsS", "PaWa28BCvsS", "PaYBCvsS", "PaYBCvsS", "PcWa131m_RNA", "PaWa53BCvsS", "PaWa58BCvsS", "PaWa28BCvsS", "PaYBCvsS", "PaWa63m_RNA", "PcTdp_RNA", "PaWa53BCvsS", "PaWa58BCvsS", "PaWa28BCvsS", "PaYBCvsS"]
+parentals: ["PaWa53m", "PaWa58m", "PaWa28m", "PaYm", "PaYp", "PcWa139m", "Podan2", "Podan2", "Podan2", "Podan2", "PaWa63p", "PcWa139m", "PaWa137m", "PaWa137m", "PaWa137m", "PaWa137m"]
+
+# # Samples that do not work in RepeatMasking because of long names
+# DifficultSamples: []
+
+## Scripts
+gff2gff3: "path/to/gffread2EVM.py"
+GffgenesIDFix: "scripts/GffgenesIDFix.py"
+gff3addproduct: "path/to/gff3addproduct.py"
+ortho2tag: "scripts/ortho2tag.py"
+addManualGFF: "scripts/addManualGFF.py"
+
+## Training files
+snapHMM: "path/to/PaWa28m_PacBioChrPilon.hmm"
+GeneMarkMod: "path/to/gmhmm.mod"
+
+## Other evidence
+comataprot: "path/to/GCA_900290415.1_version1_protein.faa"
+curatedprots: "path/to/Curatedprot_20191112.fas"
+
+# Minimum size of a contig to get annotated
+MINSIZE: 50000
+
+## Known gene products
+geneproducts: "data/KnownProducts.txt"
+
+
