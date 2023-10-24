@@ -83,7 +83,7 @@ Get into the folder with this repo's content and activate the conda environment,
     $ cd /mnt/sda/johannesson_lab/podospora/4_PhylogenyPaper/6_CircosSppComplex
     $ conda activate CircosBlock
 
-First, to get an idea of how the pipeline looks like we can make a rulegraph:
+First, to get an idea of how the pipeline looks like we can make a rulegraph. In Mac, you need to install graphviz to run the following command. For that you can do `brew install graphviz` using Homebrew, for example. It otherwise works well in Ubuntu.
 
     $ snakemake --snakefile CircosSppComplex.smk --configfile CircosSppComplex_config.yaml --rulegraph | dot -Tpng > rulegraph.png
 

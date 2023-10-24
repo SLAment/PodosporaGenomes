@@ -144,7 +144,7 @@ Get into the folder:
 	$ cd 2_FunctionalAnnotation
 	$ mamba activate funs
 
-First, to get an idea of how the pipeline looks like we can make a rulegraph:
+First, to get an idea of how the pipeline looks like we can make a rulegraph. In Mac, you need to install graphviz to run the following command. For that you can do `brew install graphviz` using Homebrew, for example. It otherwise works well in Ubuntu.
 
     $ snakemake --profile profile --rulegraph | dot -Tpng > rulegraph.png
 

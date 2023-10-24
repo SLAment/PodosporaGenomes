@@ -86,25 +86,25 @@ I also used a configuration file, but that is called internally in the pipeline.
 
 	$ cat config/OrthoTreesUppmax_config.yaml
 ```yaml
-	### OrthoTreesUppmax: Getting orthologs of the Podospora complex
-	# ===========================================================================
-	# Sandra Lorena Ament Velasquez
-	# 2023/08/09
-	# ++++++++++++++++++++++++++++++++++++++++++++++
+### OrthoTreesUppmax: Getting orthologs of the Podospora complex
+# ===========================================================================
+# Sandra Lorena Ament Velasquez
+# 2023/08/09
+# ++++++++++++++++++++++++++++++++++++++++++++++
 
-	SampleIDs: ["CBS112042p", "CBS237.71m", "CBS411.78m", "CBS415.72m", "PaTgp", "PaWa137m", "PaYp", "PcWa139m", "CBS124.78p", "PaWa100p", "PaWa21m", "PaWa28m", "PaWa46p", "PaWa53m", "PaWa58m", "PaWa63p", "PaWa87p", "CBS253.71p", "CBS307.81m", "CBS333.63p", "CBS451.62p", "PcWa131m", "PcWa132p", "PcWa133m"]
+SampleIDs: ["CBS112042p", "CBS237.71m", "CBS411.78m", "CBS415.72m", "PaTgp", "PaWa137m", "PaYp", "PcWa139m", "CBS124.78p", "PaWa100p", "PaWa21m", "PaWa28m", "PaWa46p", "PaWa53m", "PaWa58m", "PaWa63p", "PaWa87p", "CBS253.71p", "CBS307.81m", "CBS333.63p", "CBS451.62p", "PcWa131m", "PcWa132p", "PcWa133m"]
 
-	# Repeat OrthoFinder with just one representative strain per species for root-inference
-  SpeciesTreeSamples: ["CBS112042p", "CBS237.71m", "CBS411.78m", "CBS415.72m", "CBS124.78p", "PODAN", "PODCO"]
+# Repeat OrthoFinder with just one representative strain per species for root-inference
+SpeciesTreeSamples: ["CBS112042p", "CBS237.71m", "CBS411.78m", "CBS415.72m", "CBS124.78p", "PODAN", "PODCO"]
 
-	assembliespath: "path/to/genomes"
-	annotationpath: "path/to/annotation"
+assembliespath: "path/to/genomes"
+annotationpath: "path/to/annotation"
 
-	# Data of P. anserina and P. comata reference genomes
-	PODAN: "../1_Annotation_v3/data/Podans_v2016/genomePodoMatPlus.fasta"
-	PODANgff: "../1_Annotation_v3/data/Podans_v2016/genome_annotation_PODANS_v2016.gff"
-	PODCO: "path/to/Podospora_comata/PODCO_genomic.fas"
-	PODCOgff: "path/to/Podospora_comata/PODCO_genomic.gff3"
+# Data of P. anserina and P. comata reference genomes
+PODAN: "../1_Annotation_v3/data/Podans_v2016/genomePodoMatPlus.fasta"
+PODANgff: "../1_Annotation_v3/data/Podans_v2016/genome_annotation_PODANS_v2016.gff"
+PODCO: "path/to/Podospora_comata/PODCO_genomic.fas"
+PODCOgff: "path/to/Podospora_comata/PODCO_genomic.gff3"
 ```
 
 Make sure to modify the paths accordingly if you want to run the pipeline. The files from the *Podospora comata* reference genome are available in NCBI but also [here](https://github.com/johannessonlab/SpokPaper/tree/master/Fig1_3SppNetwork/references). 
@@ -117,7 +117,7 @@ Go to working directory if you are not there already:
 
 	$ module load bioinfo-tools snakemake/7.25.0 MAFFT/7.407 blast/2.13.0+
 
-First, to get an idea of how the pipeline looks like we can make a rulegraph:
+First, to get an idea of how the pipeline looks like we can make a rulegraph. In Mac, you need to install graphviz to run the following command. For that you can do `brew install graphviz` using Homebrew, for example. It otherwise works well in Ubuntu.
 
 	$ snakemake --profile profile --rulegraph | dot -Tpng > rulegraph.png
 
